@@ -1,7 +1,13 @@
 import { error } from '@sveltejs/kit';
 import workspace from 'virtual:workspace';
 
-import type { PageLoad } from './$types';
+import type { PageLoad, EntryGenerator } from './$types';
+
+export const prerender = true;
+
+export const entries: EntryGenerator = () => {
+	return [{ slug: 'two-way-data-binding-using-proxies' }];
+};
 
 export const load: PageLoad = async ({ params }) => {
 	const { slug } = params;
