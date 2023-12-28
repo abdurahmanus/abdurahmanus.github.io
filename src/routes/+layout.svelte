@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { title } from '$metadata';
-	// import '../app.css';
+	import '../app.css';
 </script>
 
 <main>
