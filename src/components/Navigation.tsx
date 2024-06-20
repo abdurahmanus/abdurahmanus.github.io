@@ -1,30 +1,18 @@
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 
-const links = [
-  {
-    href: "/",
-    label: "Home",
-  },
-  {
-    href: "/articles",
-    label: "Articles",
-  },
-  {
-    href: "/about",
-    label: "About",
-  },
-];
+export type NavLink = {
+  href: string;
+  label: string;
+};
 
-export default function Navigation() {
-  return (
-    <nav>
-      <ul className="flex gap-2">
-        {links.map((l) => (
-          <li key={l.href}>
-            <Link href={l.href}>{l.label}</Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  );
-}
+export const Navigation: React.FC<{ links: NavLink[] }> = ({ links }) => (
+  <nav>
+    <ul className="flex gap-2">
+      {links.map((l) => (
+        <li key={l.href}>
+          <Link href={l.href}>{l.label}</Link>
+        </li>
+      ))}
+    </ul>
+  </nav>
+);

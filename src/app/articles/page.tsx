@@ -1,7 +1,9 @@
+import { Background } from "@/components/Background";
+
 export default function Articles() {
   return (
     <>
-      <h1>Articles</h1>
+      <Background color="bg-red-400" />
     </>
   );
 }
