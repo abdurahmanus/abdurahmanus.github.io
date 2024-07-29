@@ -32,6 +32,14 @@ jobs:
 
       - name: Setup Pages ⚙️
         uses: actions/configure-pages@v5
+        # with:
+        # https://github.com/actions/starter-workflows/blob/main/pages/nextjs.yml
+        # Automatically inject basePath in your Next.js configuration file and disable
+        # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
+        # You may remove this line if you want to manage the configuration yourself.
+        # Note: it doesn't work with @next/mdx out of the box
+        # https://github.com/actions/configure-pages/issues/107#issuecomment-2231463757
+        # static_site_generator: next
 
       - name: Build with Next.js 🏗️
         run: npx next build
