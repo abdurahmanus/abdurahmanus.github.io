@@ -12,7 +12,13 @@ export default function Home() {
           className="rounded-full float-left mr-8 mb-6"
         />
         <section>
-          <h2 className="text-lg font-black mb-4">Hi, I&apos;m Dmitrii.</h2>
+          <h2 className="text-lg font-black mb-4">
+            Hi, I&apos;m{" "}
+            <span className="text-yellow-200 [text-shadow:_0_0_6px_rgb(251_231_102)]">
+              Dmitrii
+            </span>
+            .
+          </h2>
           <p className="font-bold mb-4">
             I build secure and efficient web applications.
           </p>
@@ -48,7 +54,7 @@ export default function Home() {
           </p>
         </section>
       </article>
-      <Background color="bg-gray-700" />
+      <Background color="bg-gray-800" />
     </>
   );
 }
