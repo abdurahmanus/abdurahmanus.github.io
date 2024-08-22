@@ -28,8 +28,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ViewTransitions>
-          <div className="p-4">
-            <header className="flex gap-4 items-center justify-around mb-24">
+          <div className="px-4">
+            <header className="flex gap-4 items-center justify-around mb-20 rounded-b-md p-4 bg-white/5">
               <h1 className="text-2xl font-bold">
                 <Link href="/">Dmitrii Gladkikh</Link>
               </h1>
