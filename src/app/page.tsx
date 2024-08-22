@@ -13,9 +13,7 @@ export default function Home() {
           className="rounded-full float-left mr-8 mb-6"
         />
         <section>
-          <h2 className="text-lg font-black mb-4">
-            Hi, I&apos;m <HighlightedText>Dmitrii</HighlightedText>.
-          </h2>
+          <h2 className="text-lg font-black mb-4">Hi, I&apos;m Dmitrii.</h2>
           <p className="font-bold mb-4">
             I build secure and efficient web applications.
           </p>

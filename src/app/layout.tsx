@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ViewTransitions, Link } from "next-view-transitions";
+import { ViewTransitions } from "next-view-transitions";
 import { Navigation } from "@/components/Navigation";
-import "./globals.css";
 import { MediaLinks } from "@/components/MediaLinks";
+import { BrandLogo } from "@/components/BrandLogo";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,7 @@ export default function RootLayout({
           <div className="px-4">
             <header className="flex gap-4 items-center justify-around mb-20 rounded-b-md p-4 bg-white/5">
               <h1 className="text-2xl font-bold">
-                <Link href="/">Dmitrii Gladkikh</Link>
+                <BrandLogo>Dmitrii Gladkikh</BrandLogo>
               </h1>
               <Navigation links={mainLinks} />
               <MediaLinks />
