@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ViewTransitions>
           <div className="px-4">
-            <header className="flex gap-4 items-center justify-around mb-20 rounded-b-md p-4 bg-white/5">
+            <header className="flex gap-4 items-center justify-around mb-20 rounded-b-md p-4 bg-white/10">
               <BrandLogo>Dmitrii Gladkikh</BrandLogo>
               <Navigation links={mainLinks} />
               <MediaLinks />

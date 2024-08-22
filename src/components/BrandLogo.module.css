@@ -31,6 +31,6 @@
 
   &:hover .flipElement:before,
   &:focus .flipElement:before {
-    @apply text-yellow-400;
+    @apply text-primary-light dark:text-primary-dark;
   }
 }

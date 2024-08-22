@@ -1,4 +1,3 @@
-import { Background } from "@/components/Background";
 import { HighlightedText } from "@/components/HighlightedText";
 
 export default function Home() {
@@ -55,7 +54,6 @@ export default function Home() {
           </p>
         </section>
       </article>
-      <Background color="bg-gray-800" />
     </>
   );
 }

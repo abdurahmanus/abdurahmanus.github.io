@@ -56,7 +56,7 @@ export const MediaLinks = () => {
           <a
             href={ml.href}
             target="_blank"
-            className="hover:text-yellow-400 transition-colors duration-300"
+            className="hover:text-primary-light dark:hover:text-primary-dark transition-colors duration-300"
           >
             {ml.svg}
           </a>
