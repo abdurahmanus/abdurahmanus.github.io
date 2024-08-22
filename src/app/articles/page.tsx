@@ -3,7 +3,7 @@ import { Background } from "@/components/Background";
 export default function Articles() {
   return (
     <>
-      <Background color="bg-red-400" />
+      <Background color="bg-sky-700" />
     </>
   );
 }

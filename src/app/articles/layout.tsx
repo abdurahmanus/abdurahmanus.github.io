@@ -9,7 +9,7 @@ const articles = [
 
 const ArticlesLayout: React.FC<React.PropsWithChildren> = ({ children }) => (
   <>
-    <Navigation links={articles} />
+    {/* <Navigation links={articles} /> */}
     {children}
   </>
 );
