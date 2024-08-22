@@ -31,9 +31,7 @@ export default function RootLayout({
         <ViewTransitions>
           <div className="px-4">
             <header className="flex gap-4 items-center justify-around mb-20 rounded-b-md p-4 bg-white/5">
-              <h1 className="text-2xl font-bold">
-                <BrandLogo>Dmitrii Gladkikh</BrandLogo>
-              </h1>
+              <BrandLogo>Dmitrii Gladkikh</BrandLogo>
               <Navigation links={mainLinks} />
               <MediaLinks />
             </header>

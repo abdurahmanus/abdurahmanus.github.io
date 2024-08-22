@@ -1,5 +1,6 @@
 .flipAnimate {
   perspective: 1000px;
+  font-family: "Shadows Into Light", cursive;
 
   .flipElement {
     position: relative;
