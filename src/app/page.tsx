@@ -1,4 +1,5 @@
 import { Background } from "@/components/Background";
+import { HighlightedText } from "@/components/HighlightedText";
 
 export default function Home() {
   return (
@@ -13,24 +14,26 @@ export default function Home() {
         />
         <section>
           <h2 className="text-lg font-black mb-4">
-            Hi, I&apos;m{" "}
-            <span className="text-yellow-200 [text-shadow:_0_0_6px_rgb(251_231_102)]">
-              Dmitrii
-            </span>
-            .
+            Hi, I&apos;m <HighlightedText>Dmitrii</HighlightedText>.
           </h2>
           <p className="font-bold mb-4">
             I build secure and efficient web applications.
           </p>
           <p className="mb-2">
             I am an experienced software developer with a focus on frontend
-            technologies, specializing in React and TypeScript. I am also
-            proficient in NodeJS, MongoDB, Angular, Svelte, and more.
+            technologies, specializing in{" "}
+            <HighlightedText>React</HighlightedText> and{" "}
+            <HighlightedText>TypeScript</HighlightedText>. I am also proficient
+            in <HighlightedText>NodeJS</HighlightedText>,{" "}
+            <HighlightedText>MongoDB</HighlightedText>,{" "}
+            <HighlightedText>Angular</HighlightedText>,{" "}
+            <HighlightedText>Svelte</HighlightedText>, and more.
           </p>
           <p className="mb-2">
             I am skilled in creating high-quality web applications, developing
-            npm libraries, and setting up development infrastructure, including
-            GitLab CI and GitHub Actions.
+            npm libraries, and setting up development infrastructure, including{" "}
+            <HighlightedText>GitLab CI</HighlightedText> and{" "}
+            <HighlightedText>GitHub Actions</HighlightedText>.
           </p>
           <p className="mb-2">
             I am adept at working in diverse team environments on complex
